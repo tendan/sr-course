@@ -50,6 +50,7 @@ unisims
 **/*.ip_user_files/
 **/*.runs/
 **/*.sim/
+**/*.gen/
 
 ###### for Xilinx Vivado|ISE
 */.Xil/
