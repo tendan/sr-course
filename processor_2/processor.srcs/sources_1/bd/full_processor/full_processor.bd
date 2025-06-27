@@ -1,0 +1,112 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x729947A1729947A1",
+      "device": "xck26-sfvc784-2LV-c",
+      "gen_directory": "../../../../processor.gen/sources_1/bd/full_processor",
+      "name": "full_processor",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "top_0": "",
+      "zynq_ultra_ps_e_0": ""
+    },
+    "ports": {
+      "sw": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "led": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "top_0": {
+        "vlnv": "xilinx.com:module_ref:top:1.0",
+        "xci_name": "full_processor_top_0_0",
+        "xci_path": "ip/full_processor_top_0_0/full_processor_top_0_0.xci",
+        "inst_hier_path": "top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk100": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "96968727",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "full_processor_zynq_ultra_ps_e_0_1_pl_clk0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "sw": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "led": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "zynq_ultra_ps_e_0": {
+        "vlnv": "xilinx.com:ip:zynq_ultra_ps_e:3.4",
+        "xci_name": "full_processor_zynq_ultra_ps_e_0_1",
+        "xci_path": "ip/full_processor_zynq_ultra_ps_e_0_1/full_processor_zynq_ultra_ps_e_0_1.xci",
+        "inst_hier_path": "zynq_ultra_ps_e_0",
+        "parameters": {
+          "PSU_DDR_RAM_HIGHADDR_OFFSET": {
+            "value": "0x00000002"
+          },
+          "PSU_DDR_RAM_LOWADDR_OFFSET": {
+            "value": "0x80000000"
+          },
+          "PSU__DDR_HIGH_ADDRESS_GUI_ENABLE": {
+            "value": "0"
+          },
+          "PSU__USE__M_AXI_GP2": {
+            "value": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "sw_1": {
+        "ports": [
+          "sw",
+          "top_0/sw"
+        ]
+      },
+      "top_0_led": {
+        "ports": [
+          "top_0/led",
+          "led"
+        ]
+      },
+      "zynq_ultra_ps_e_0_pl_clk0": {
+        "ports": [
+          "zynq_ultra_ps_e_0/pl_clk0",
+          "top_0/clk100"
+        ]
+      }
+    }
+  }
+}
