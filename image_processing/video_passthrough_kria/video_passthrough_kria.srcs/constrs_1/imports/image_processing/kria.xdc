@@ -1,0 +1,33 @@
+# Xilinx design constraints (XDC) file for Kria K26 SOM - Rev 1
+
+set_property PACKAGE_PIN F11 [get_ports {rpi_enable[0]}]
+set_property PACKAGE_PIN F10 [get_ports IIC_1_0_sda_io]
+set_property PACKAGE_PIN G11 [get_ports IIC_1_0_scl_io]
+set_property PACKAGE_PIN G6 [get_ports {mipi_phy_if_0_data_p[1]}]
+set_property PACKAGE_PIN F6 [get_ports {mipi_phy_if_0_data_n[1]}]
+set_property PACKAGE_PIN E5 [get_ports {mipi_phy_if_0_data_p[0]}]
+set_property PACKAGE_PIN D5 [get_ports {mipi_phy_if_0_data_n[0]}]
+set_property PACKAGE_PIN D7 [get_ports mipi_phy_if_0_clk_p]
+set_property PACKAGE_PIN D6 [get_ports mipi_phy_if_0_clk_n]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {rpi_enable[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_1_0_sda_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_1_0_scl_io]
+
+#switches
+set_property PACKAGE_PIN H12 [get_ports {sw[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {sw[0]}]
+set_property PACKAGE_PIN E10 [get_ports {sw[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {sw[1]}]
+set_property PACKAGE_PIN D10 [get_ports {sw[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {sw[2]}]
+set_property PACKAGE_PIN C11 [get_ports {sw[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {sw[3]}]
+#set_property PACKAGE_PIN B10 [get_ports {sw[4]}]
+#set_property IOSTANDARD LVCMOS33 [get_ports {sw[4]}]
+#set_property PACKAGE_PIN E12 [get_ports {sw[5]}]
+#set_property IOSTANDARD LVCMOS33 [get_ports {sw[5]}]
+#set_property PACKAGE_PIN D11 [get_ports {sw[6]}]
+#set_property IOSTANDARD LVCMOS33 [get_ports {sw[6]}]
+#set_property PACKAGE_PIN B11 [get_ports {sw[7]}]
+#set_property IOSTANDARD LVCMOS33 [get_ports {sw[7]}]

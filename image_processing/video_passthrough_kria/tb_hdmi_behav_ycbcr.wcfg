@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_hdmi_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_hdmi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,985 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,003 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="465"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject type="logic" fp_name="/tb_hdmi/rx_pclk">
+      <obj_property name="ElementShortName">rx_pclk</obj_property>
+      <obj_property name="ObjectShortName">rx_pclk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/sw">
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/rx_de">
+      <obj_property name="ElementShortName">rx_de</obj_property>
+      <obj_property name="ObjectShortName">rx_de</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/rx_hsync">
+      <obj_property name="ElementShortName">rx_hsync</obj_property>
+      <obj_property name="ObjectShortName">rx_hsync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/rx_vsync">
+      <obj_property name="ElementShortName">rx_vsync</obj_property>
+      <obj_property name="ObjectShortName">rx_vsync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/rx_red">
+      <obj_property name="ElementShortName">rx_red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_red[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/rx_green">
+      <obj_property name="ElementShortName">rx_green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_green[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/rx_blue">
+      <obj_property name="ElementShortName">rx_blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_blue[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/rx_pixel_out">
+      <obj_property name="ElementShortName">rx_pixel_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_pixel_out[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/vs_rx_de">
+      <obj_property name="ElementShortName">vs_rx_de</obj_property>
+      <obj_property name="ObjectShortName">vs_rx_de</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/vs_rx_hsync">
+      <obj_property name="ElementShortName">vs_rx_hsync</obj_property>
+      <obj_property name="ObjectShortName">vs_rx_hsync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/vs_rx_vsync">
+      <obj_property name="ElementShortName">vs_rx_vsync</obj_property>
+      <obj_property name="ObjectShortName">vs_rx_vsync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/x">
+      <obj_property name="ElementShortName">x[10:0]</obj_property>
+      <obj_property name="ObjectShortName">x[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/y">
+      <obj_property name="ElementShortName">y[10:0]</obj_property>
+      <obj_property name="ObjectShortName">y[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/IMG_H">
+      <obj_property name="ElementShortName">IMG_H[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMG_H[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/IMG_W">
+      <obj_property name="ElementShortName">IMG_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMG_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/vs/cent/eof">
+      <obj_property name="ElementShortName">eof</obj_property>
+      <obj_property name="ObjectShortName">eof</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/vs/cent/qv_x">
+      <obj_property name="ElementShortName">qv_x</obj_property>
+      <obj_property name="ObjectShortName">qv_x</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_hdmi/vs/cent/qv_y">
+      <obj_property name="ElementShortName">qv_y</obj_property>
+      <obj_property name="ObjectShortName">qv_y</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/x_reg">
+      <obj_property name="ElementShortName">x_reg[10:0]</obj_property>
+      <obj_property name="ObjectShortName">x_reg[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/y_reg">
+      <obj_property name="ElementShortName">y_reg[10:0]</obj_property>
+      <obj_property name="ObjectShortName">y_reg[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/m00">
+      <obj_property name="ElementShortName">m00[20:0]</obj_property>
+      <obj_property name="ObjectShortName">m00[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/m01">
+      <obj_property name="ElementShortName">m01[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m01[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_hdmi/vs/cent/m10">
+      <obj_property name="ElementShortName">m10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m10[31:0]</obj_property>
+   </wvobject>
+</wave_config>
